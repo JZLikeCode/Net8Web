@@ -29,4 +29,14 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    public bool FakeLongFunction1234567890(int value)
+    {
+        if (value > 0 && value % 2 == 0 || value < -10)
+        {
+            return true;
+        }
+
+        return false;
+    }
 }
