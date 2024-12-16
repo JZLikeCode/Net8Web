@@ -39,4 +39,31 @@ public class WeatherForecastController : ControllerBase
 
         return false;
     }
+
+    public bool FakeLongFunctionABCDEFGHIGKLMNOPQRSTUVWSYZ(int value)
+    {
+        //logic check
+        if (value > 0 && value % 2 == 0 || value < -10)
+        {
+            //return true
+            return true;
+        }
+        //return false
+        return false;
+    }  
+
+    public string InefficientStringConcatenation()
+    {
+        string result = "";
+        for (int i = 0; i < 1000; i++)
+        {
+            result += i.ToString();
+        }
+        return result;
+    }
+}
+
+public class UnusedClass
+{
+    
 }
