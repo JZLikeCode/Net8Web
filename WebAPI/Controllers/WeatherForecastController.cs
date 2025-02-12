@@ -30,6 +30,7 @@ public class WeatherForecastController : ControllerBase
         .ToArray();
     }
 
+    //smelly code test: long function name
     public bool FakeLongFunction1234567890(int value)
     {
         if (value > 0 && value % 2 == 0 || value < -10)
@@ -39,7 +40,7 @@ public class WeatherForecastController : ControllerBase
 
         return false;
     }
-
+    //smelly code test: same function
     public bool FakeLongFunctionABCDEFGHIGKLMNOPQRSTUVWSYZ(int value)
     {
         //logic check
@@ -52,6 +53,7 @@ public class WeatherForecastController : ControllerBase
         return false;
     }  
 
+    //smelly code test
     public string InefficientStringConcatenation()
     {
         string result = "";
@@ -63,7 +65,8 @@ public class WeatherForecastController : ControllerBase
     }
 }
 
+//smelly code test: unused class
 public class UnusedClass
 {
-    
+
 }
